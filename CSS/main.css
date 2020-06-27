@@ -1,0 +1,74 @@
+/* 
+Fuentes
+font-family: 'Arima Madurai', cursive;
+font-family: 'Lato', sans-serif;
+*/
+
+/* Paleta de Colores
+
+    #034AA6
+    #035AA6
+    #89D9D9
+    #B8D9D5
+    #D9A59A
+    #717074
+*/
+
+
+*{
+    font-family: 'Arima Madurai', cursive;
+
+}
+
+.fuente-Lato
+{
+    font-family: 'Lato', sans-serif;
+}
+
+.fuente-Arima
+{
+    font-family: 'Arima Madurai', cursive;
+}
+
+#particles-js {
+    background-color: #89D9D9;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  #overlay {
+    margin-top:30vh;
+    margin: 30vh auto auto 0
+    padding: auto;
+  }
+
+#introduccion
+{
+    background-color: rgb(217,165,154,0.8);
+    
+    color: #fffF;
+}
+
+#introduccion .card
+{
+    color:#717074;
+}
+
+/* REDES SOCIALES */
+#redes
+{
+    color:#FFF;
+}
+
+i {
+
+  border-radius: 50%;
+  border: 3px solid white;
+  padding: 10px;
+  margin: auto;
+
+}
