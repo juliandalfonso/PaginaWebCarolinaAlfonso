@@ -1,266 +1,435 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carolina Alfonso</title>
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;200;300;400;500;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    <!-- FontAwesome -->
-    <script src="https://kit.fontawesome.com/f40b2f8597.js" crossorigin="anonymous"></script>
-    <!-- BOOSTRAP4 -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="CSS/main.css">
-    <!-- ScrollReveal -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <!-- AOS.js -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carolina Alfonso</title>
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;200;300;400;500;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/f40b2f8597.js" crossorigin="anonymous"></script>
+  <!-- BOOSTRAP4 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="CSS/main.css">
+  <!-- ScrollReveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- AOS.js -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Contador -->
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 </head>
+
 <body>
 
-    <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-light" style="background-color: #B8D9D5;">
-        <div class="container">
-            <a class="navbar-brand" href="#header" >Carolina Alfonso</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Inicio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#servicios">Servicios</a>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Productos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
-            </li>
-          </ul>
-        </div>
-        </div>
-      </nav>
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light" style="background-color: #B8D9D5;">
+    <div class="container">
+      <img src="/IMG/Logo.png" alt="" style="width: 100px;">
+      <a href="" style="color: cadetblue;"> <i class="fas fa-phone pl-3" id="telefono"></i> +57 305 707 9098</a>
+      <!-- <a class="navbar-brand" href="#header" >Carolina Alfonso</a> -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicios">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Experiencias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Comprar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-      <!-- HEADER -->
-      <div class="container text-center vh-100">
-        <div id="particles-js"></div>
-        <div id="overlay">
-          <img src="/IMG/Logo.png" alt="" class="w-75">
+  <!-- HEADER -->
+  <div class="container text-center vh-75 pb-4">
+    <div id="particles-js"></div>
+    <div id="overlay">
+      <img src="/IMG/Logo.png" alt="" class="w-75">
+    </div>
+  </div>
+
+  <!-- contador -->
+  <div class="container pb-4">
+    <div class="row text-center">
+      <div class="col-lg-3 col-md-3  py-2">
+        <div class="counter">
+          <i class="fa fa-code fa-2x"></i>
+          <h2 class="timer count-title count-number" data-to="100" data-speed="1500"></h2>
+          <p class="count-text ">Limpiezas</p>
         </div>
       </div>
+      <div class="col-lg-3 col-md-3  py-2">
+        <div class="counter">
+          <i class="fa fa-coffee fa-2x"></i>
+          <h2 class="timer count-title count-number" data-to="1700" data-speed="1500"></h2>
+          <p class="count-text ">Clientes Felices</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3  py-2">
+        <div class="counter">
+          <i class="fa fa-lightbulb-o fa-2x"></i>
+          <h2 class="timer count-title count-number" data-to="11900" data-speed="1500"></h2>
+          <p class="count-text ">Pacientes</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3  py-2">
+        <div class="counter">
+          <i class="fa fa-bug fa-2x"></i>
+          <h2 class="timer count-title count-number" data-to="157" data-speed="1500"></h2>
+          <p class="count-text ">Pacientes</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- fin contador -->
 
-
-        <!-- Introducción -->
-        <div id="introduccion">
-          <div class="container py-4">
-            <div class="row">
-              <div class="col-md-6 my-auto">
-                <div data-aos="fade-right"><img src="/IMG/foto-perfil.jpeg" alt="" class="img-thumbnail foto-perfil img-fluid text-center"></div>
+  <!-- Introducción -->
+  <div id="introduccion">
+    <div class="container py-4">
+      <div class="row">
+        <div class="col-md-6 my-auto">
+          <div data-aos="fade-right"><img src="/IMG/foto-perfil.jpeg" alt=""
+              class="img-thumbnail foto-perfil img-fluid text-center"></div>
+        </div>
+        <div class="col-md-6 my-auto">
+          <div data-aos="fade-left">
+            <h1 class="display-4 font-weight-bold text-center">ACERCA DE MI</h1>
+            <p class="p fuente-Lato font-weight-light text-justify text-center">Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Cumque vero odio praesentium quia consectetur? Error ipsam et impedit sequi in aut eos
+              laboriosam atque vero incidunt distinctio optio quia quis est, nam consectetur perspiciatis assumenda id
+              vitae expedita consequuntur. Pariatur.</p>
+          </div>
+          <div data-aos="flip-up">
+            <div class="card">
+              <div class="card-header">
+                Quote
               </div>
-              <div class="col-md-6 my-auto">
-                <div data-aos="fade-left">
-                  <h1 class="display-4 font-weight-bold text-center">ACERCA DE MI</h1>
-                  <p class="p fuente-Lato font-weight-light text-justify text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vero odio praesentium quia consectetur? Error ipsam et impedit sequi in aut eos laboriosam atque vero incidunt distinctio optio quia quis est, nam consectetur perspiciatis assumenda id vitae expedita consequuntur. Pariatur.</p>
-                </div>
-                <div data-aos="flip-up">
-                  <div class="card">
-                    <div class="card-header">
-                      Quote
-                    </div>
-                    <div class="card-body">
-                      <blockquote class="blockquote mb-0">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                      </blockquote>
-                    </div>
-                  </div>
-                </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                  <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite>
+                  </footer>
+                </blockquote>
               </div>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+  <!-- fin introduccion -->
 
-        <!-- REDES SOCIALES -->
-        <div id="redes" class="my-4 py-4">
-          <div class="container my-4">
-            <div class="row">
-              <div class="col-lg-6 col-md-12 col-sm-12 my-auto" data-aos="fade-right">
-                <h1 class="display-4 font-weight-bold text-center">
-                  Lorem ipsum dolor sit amet consectetur.
-                </h1>
-              </div>
-              <div class="col-lg-6 col-md-12 col-sm-12 ">
-                  <div class="my-3 py-3" data-aos="fade-left">
-                    <div class=" text-center float-xl-left float-lg-left">
-                      <i class="fas fa-tooth"></i>
-                    </div>
-                    <p class=" text-center float-xl-right float-lg-right mb-0 mt-2 mx-auto"> sit amet consectetur adipisicing elit. Beatae, velit?</p>
-                  </div>                
-                  <div class="my-3 py-3" data-aos="fade-left">
-                    <div class=" text-center float-xl-left float-lg-left">
-                      <i class="fas fa-tooth"></i>
-                    </div>
-                    <p class=" text-center float-xl-right float-lg-right mb-0 mt-2 mx-auto"> sit amet consectetur adipisicing elit. Beatae, velit?</p>
-                  </div>                
-                  <div class="my-3 py-3" data-aos="fade-left">
-                    <div class=" text-center float-xl-left float-lg-left">
-                      <i class="fas fa-tooth"></i>
-                    </div>
-                    <p class=" text-center float-xl-right float-lg-right mb-0 mt-2 mx-auto"> sit amet consectetur adipisicing elit. Beatae, velit?</p>
-                  </div>                
-                </div>
-              </div>
+  <!-- Carrousel de Servicios -->
+  <div id="servicios">
+    <div class="container">
+      <div class="row my-4">
+        <div class="col-lg-3 col-sm-12 py-2" data-aos="zoom-in">
+          <div class="card w-100" style="width: 18rem;">
+            <img class="card-img-top" src="/IMG/dentist2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text fuente-Lato font-weight-light text-center">Some quick example text to build on the
+                card title and make up the bulk of the card's content.</p>
+              <div>
+                <input type="button" class="btn btn-info btn-block" value="ver más"></input>
               </div>
             </div>
           </div>
         </div>
-        
-
-<!-- GALERIA DE IMAGENES -->
-        <!--Carousel Wrapper-->
-<div id="carousel-example-2" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
-  <!--Indicators-->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-2" data-slide-to="1"></li>
-    <li data-target="#carousel-example-2" data-slide-to="2"></li>
-  </ol>
-  <!--/.Indicators-->
-  <!--Slides-->
-  <div class="carousel-inner" role="listbox">
-    <div class="carousel-item active">
-      <div class="view">
-        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(105).jpg" alt="First slide">
-        <div class="mask rgba-black-light"></div>
-      </div>
-      <div class="carousel-caption">
-        <h3 class="h3-responsive">This is the first title</h3>
-        <p>First text</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <!--Mask color-->
-      <div class="view">
-        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(115).jpg" alt="Second slide">
-        <div class="mask rgba-black-light"></div>
-      </div>
-      <div class="carousel-caption">
-        <h3 class="h3-responsive">Thir is the second title</h3>
-        <p>Secondary text</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <!--Mask color-->
-      <div class="view">
-        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(108).jpg" alt="Third slide">
-        <div class="mask rgba-black-light"></div>
-      </div>
-      <div class="carousel-caption">
-        <h3 class="h3-responsive">This is the third title</h3>
-        <p>Third text</p>
-      </div>
-    </div>
-  </div>
-  <!--/.Slides-->
-  <!--Controls-->
-  <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-  <!--/.Controls-->
-</div>
-<!--/.Carousel Wrapper-->
-
-<!-- Carrousel de Servicios -->
-
-<div id="servicios">
-  <div class="container">
-    <div class="row my-4">
-      <div class="col-md-4 col-sm-12 py-2" data-aos="zoom-in">
-        <div class="card w-100" style="width: 18rem;">
-          <img class="card-img-top" src="/IMG/dentist2.jpg" alt="Card image cap">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="col-lg-3 col-sm-12 py-2" data-aos="zoom-in">
+          <div class="card w-100" style="width: 18rem;">
+            <img class="card-img-top" src="/IMG/dentist2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text fuente-Lato font-weight-light text-center">Some quick example text to build on the
+                card title and make up the bulk of the card's content.</p>
+              <div>
+                <input type="button" class="btn btn-info btn-block" value="ver más"></input>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-4 col-sm-12 py-2" data-aos="zoom-in">
-        <div class="card w-100" style="width: 18rem;">
-          <img class="card-img-top" src="/IMG/dentist2.jpg" alt="Card image cap">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="col-lg-3 col-sm-12 py-2" data-aos="zoom-in">
+          <div class="card w-100" style="width: 18rem;">
+            <img class="card-img-top" src="/IMG/dentist2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text fuente-Lato font-weight-light text-center">Some quick example text to build on the
+                card title and make up the bulk of the card's content.</p>
+              <div>
+                <input type="button" class="btn btn-info btn-block" value="ver más"></input>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-4 col-sm-12 py-2" data-aos="zoom-in">
-        <div class="card w-100" style="width: 18rem;">
-          <img class="card-img-top" src="/IMG/dentist2.jpg" alt="Card image cap">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="col-lg-3 col-sm-12 py-2" data-aos="zoom-in">
+          <div class="card w-100" style="width: 18rem;">
+            <img class="card-img-top" src="/IMG/dentist2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text fuente-Lato font-weight-light text-center">Some quick example text to build on the
+                card title and make up the bulk of the card's content.</p>
+              <div>
+                <input type="button" class="btn btn-info btn-block" value="ver más"></input>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="container">
-    <div class="row my-4">
-      <div class="col-md-4 col-sm-12 my-2" data-aos="zoom-in">
-        <div class="card w-100" style="width: 18rem;">
-          <img class="card-img-top" src="/IMG/dentist2.jpg" alt="Card image cap">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <div class="container">
+      <div class="row my-4">
+        <div class="col-lg-3 col-sm-12 py-2" data-aos="zoom-in">
+          <div class="card w-100" style="width: 18rem;">
+            <img class="card-img-top" src="/IMG/dentist2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text fuente-Lato font-weight-light text-center">Some quick example text to build on the
+                card title and make up the bulk of the card's content.</p>
+              <div>
+                <input type="button" class="btn btn-info btn-block" value="ver más"></input>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-4 col-sm-12 my-2" data-aos="zoom-in">
-        <div class="card w-100" style="width: 18rem;">
-          <img class="card-img-top" src="/IMG/dentist2.jpg" alt="Card image cap">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="col-lg-3 col-sm-12 py-2" data-aos="zoom-in">
+          <div class="card w-100" style="width: 18rem;">
+            <img class="card-img-top" src="/IMG/dentist2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text fuente-Lato font-weight-light text-center">Some quick example text to build on the
+                card title and make up the bulk of the card's content.</p>
+              <div>
+                <input type="button" class="btn btn-info btn-block" value="ver más"></input>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-4 col-sm-12 my-2" data-aos="zoom-in">
-        <div class="card w-100" style="width: 18rem;">
-          <img class="card-img-top" src="/IMG/dentist2.jpg" alt="Card image cap">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="col-lg-3 col-sm-12 py-2" data-aos="zoom-in">
+          <div class="card w-100" style="width: 18rem;">
+            <img class="card-img-top" src="/IMG/dentist2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text fuente-Lato font-weight-light text-center">Some quick example text to build on the
+                card title and make up the bulk of the card's content.</p>
+              <div>
+                <input type="button" class="btn btn-info btn-block" value="ver más"></input>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-12 py-2" data-aos="zoom-in">
+          <div class="card w-100" style="width: 18rem;">
+            <img class="card-img-top" src="/IMG/dentist2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text fuente-Lato font-weight-light text-center">Some quick example text to build on the
+                card title and make up the bulk of the card's content.</p>
+              <div>
+                <input type="button" class="btn btn-info btn-block" value="ver más"></input>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+  <!-- fin carrusel de servicios -->
+
+  <!-- GALERIA DE IMAGENES -->
+  <!--Carousel Wrapper-->
+  <div id="carousel-example-2" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-2" data-slide-to="1"></li>
+      <li data-target="#carousel-example-2" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <div class="view">
+          <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(105).jpg" alt="First slide">
+          <div class="mask rgba-black-light"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">This is the first title</h3>
+          <p>First text</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(115).jpg" alt="Second slide">
+          <div class="mask rgba-black-light"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">Thir is the second title</h3>
+          <p>Secondary text</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(108).jpg" alt="Third slide">
+          <div class="mask rgba-black-light"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">This is the third title</h3>
+          <p>Third text</p>
+        </div>
+      </div>
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+  </div>
+  <!--/.Carousel Wrapper-->
+
+
+  <!-- REDES SOCIALES -->
+  <div id="redes" class="my-4 py-4">
+    <div class="container my-4">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12 my-auto" data-aos="fade-right">
+          <h1 class="display-4 font-weight-bold text-center">
+            Lorem ipsum dolor sit amet consectetur.
+          </h1>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 ">
+          <div class="py-3 text-center" data-aos="fade-left">
+            <div class=" text-center d-md-block d-lg-inline d-sm-block ">
+              <i class="fas fa-tooth iconos-redes hvr-glow"></i>
+            </div>
+            <p class=" text-center float-xl-right float-lg-right mb-0 mt-2 mx-auto d-md-block d-lg-inline d-sm-block">
+              sit amet consectetur adipisicing elit. Beatae, velit?</p>
+          </div>
+          <div class="py-3 text-center" data-aos="fade-left">
+            <div class=" text-center d-md-block d-lg-inline d-sm-block ">
+              <i class="fas fa-tooth iconos-redes hvr-glow"></i>
+            </div>
+            <p class=" text-center float-xl-right float-lg-right mb-0 mt-2 mx-auto d-md-block d-lg-inline d-sm-block">
+              sit amet consectetur adipisicing elit. Beatae, velit?</p>
+          </div>
+          <div class="py-3 text-center" data-aos="fade-left">
+            <div class=" text-center d-md-block d-lg-inline d-sm-block ">
+              <i class="fas fa-tooth iconos-redes hvr-glow"></i>
+            </div>
+            <p class=" text-center float-xl-right float-lg-right mb-0 mt-2 mx-auto d-md-block d-lg-inline d-sm-block">
+              sit amet consectetur adipisicing elit. Beatae, velit?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <!-- fin redes sociales -->
+
+  <!-- Contacto -->
+  <div class="container contact-form" data-aos="flip-down">
+    <div class="contact-image">
+      <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact" />
+    </div>
+    <form method="post">
+      <h3>Envíanos un mensaje</h3>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <input type="text" name="txtName" class="form-control" placeholder="Nombre *" value="" />
+          </div>
+          <div class="form-group">
+            <input type="text" name="txtEmail" class="form-control" placeholder="Email *" value="" />
+          </div>
+          <div class="form-group">
+            <input type="text" name="txtPhone" class="form-control" placeholder="Telefono *" value="" />
+          </div>
+          <div class="form-group">
+            <input type="submit" name="btnSubmit" class="btnContact" value="Enviar" />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <textarea name="txtMsg" class="form-control" placeholder="Tu mensaje *"
+              style="width: 100%; height: 150px;"></textarea>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <!-- fin Contacto -->
+
+  <footer style="background-color:rgb(255,255,255,0.6);" id="footer">
+    <div class="container">
+      <div class="row p-4">
+        <div class="col-md-6 my-auto text-center" id="redes-footer">
+          <p class="fuente-Lato"><i class="fab fa-facebook-square m-2"></i> Facebook</p>
+          <p class="fuente-Lato"><i class="fab fa-instagram-square m-2"></i>Instagram</p>
+          <p class="fuente-Lato"><i class="fab fa-twitter-square m-2"></i>Twitter</p>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="/IMG/Logo.png" alt="" style=" width: 60%;">
+        </div>
+      </div>
+    </div>
+    <div style="background-color: #ffffff;">
+      <p class="text-center mb-0">copyright Odontegral S.A.S</p>
+    </div>
+  </footer>
 
 
 
 
-    <!-- Custom Scripts -->
-    <script src="/JS/main.js"></script>
+  <!-- Custom Scripts -->
+  <script src="/JS/main.js"></script>
 
-    <!-- BOOSTRAP scripts -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <!-- BOOSTRAP scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
 
-    <!-- Particles.js -->
-    <script src="/particles.js"></script>
-    <script src="/JS/app.js"></script>
+  <!-- Particles.js -->
+  <script src="/particles.js"></script>
+  <script src="/JS/app.js"></script>
 
-    <!-- AoS.js -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-    
+  <!-- AoS.js -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 
 </body>
+
 </html>
