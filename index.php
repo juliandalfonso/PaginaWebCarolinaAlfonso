@@ -1,89 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
+<!-- conexion a mysql -->
+<?php include("db.php")?>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Carolina Alfonso</title>
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;200;300;400;500;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-    rel="stylesheet">
-  <!-- FontAwesome -->
-  <script src="https://kit.fontawesome.com/f40b2f8597.js" crossorigin="anonymous"></script>
-  <!-- BOOSTRAP4 -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="CSS/main.css">
-  <!-- ScrollReveal -->
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <!-- AOS.js -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <!-- Contador -->
+<!-- header -->
+<?php include("INCLUDES/header.php")?>
 
+<!-- NavBar -->
+<?php include("INCLUDES/NavBar.php")?>
 
-
-</head>
-
-<body>
-
-  <!-- NavBar -->
-  <nav class="navbar navbar-expand-lg fixed-top navbar-light" style="background-color: #B8D9D5;">
-    <div class="container">
-      <img src="/IMG/Logo.png" alt="" style="width: 100px;">
-      <a href="" style="color: cadetblue;"> <i class="fas fa-phone pl-3" id="telefono"></i> +57 305 707 9098</a>
-      <!-- <a class="navbar-brand" href="#header" >Carolina Alfonso</a> -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Inicio</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Servicios
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Diseño de Sonrisa.</a>
-              <a class="dropdown-item" href="#">Blanqueamiento.</a>
-              <a class="dropdown-item" href="#">Rehabilitación.</a>
-              <a class="dropdown-item" href="#">Implantes.</a>
-              <a class="dropdown-item" href="#">Carillas.</a>
-              <a class="dropdown-item" href="#">Coronas.</a>
-              <a class="dropdown-item" href="#">Incrustaciones.</a>
-              <a class="dropdown-item" href="#">Resinas.</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Experiencias</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Comprar</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Empresas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#footer">Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
 
   <!-- HEADER -->
   <div class="container text-center vh-75 pb-4">
-    <div id="particles-js"></div>
+    <div id="particles-js">hola</div>
     <div id="overlay">
-      <img src="/IMG/Logo.png" alt="" class="w-75">
+      <img src="IMG/Logo.png" alt="" class="w-75">
     </div>
   </div>
 
@@ -92,7 +21,7 @@
     <div class="container py-4">
       <div class="row">
         <div class="col-md-6 my-auto">
-          <div data-aos="fade-right"><img src="/IMG/foto-perfil.jpeg" alt=""
+          <div data-aos="fade-right"><img src="IMG/foto-perfil.jpeg" alt=""
               class="img-thumbnail foto-perfil img-fluid text-center"></div>
         </div>
         <div class="col-md-6 my-auto">
@@ -145,7 +74,7 @@
         </div>
         <div class="col-lg-3 col-sm-12 py-2" data-aos="zoom-in">
           <div class="card w-100" style="width: 18rem;">
-            <img class="card-img-top" src="/IMG/rombo-implantes.png" alt="Card image cap">
+            <img class="card-img-top" src="IMG/rombo-implantes.png" alt="Card image cap">
             <div class="card-body">
               <div>
                 <input type="button" class="btn btn-info btn-block" value="ver más"></input>
@@ -155,7 +84,7 @@
         </div>
         <div class="col-lg-3 col-sm-12 py-2" data-aos="zoom-in">
           <div class="card w-100" style="width: 18rem;">
-            <img class="card-img-top" src="/IMG/rombo-carillas-lentes.png" alt="Card image cap">
+            <img class="card-img-top" src="IMG/rombo-carillas-lentes.png" alt="Card image cap">
             <div class="card-body">
               <div>
                 <input type="button" class="btn btn-info btn-block" value="ver más"></input>
@@ -165,7 +94,7 @@
         </div>
         <div class="col-lg-3 col-sm-12 py-2" data-aos="zoom-in">
           <div class="card w-100" style="width: 18rem;">
-            <img class="card-img-top" src="/IMG/rombo-resinas.png" alt="Card image cap">
+            <img class="card-img-top" src="IMG/rombo-resinas.png" alt="Card image cap">
             <div class="card-body">
               <div>
                 <input type="button" class="btn btn-info btn-block" value="ver más"></input>
@@ -179,7 +108,7 @@
       <div class="row my-4">
         <div class="col-lg-3 col-sm-12 py-2" data-aos="zoom-in">
           <div class="card w-100" style="width: 18rem;">
-            <img class="card-img-top" src="/IMG/rombo.png" alt="Card image cap">
+            <img class="card-img-top" src="IMG/rombo.png" alt="Card image cap">
             <div class="card-body">
               <p class="card-text fuente-Lato font-weight-light text-center">Rehabilitacion.</p>
               <div>
@@ -190,7 +119,7 @@
         </div>
         <div class="col-lg-3 col-sm-12 py-2" data-aos="zoom-in">
           <div class="card w-100" style="width: 18rem;">
-            <img class="card-img-top" src="/IMG/rombo-coronas.png" alt="Card image cap">
+            <img class="card-img-top" src="IMG/rombo-coronas.png" alt="Card image cap">
             <div class="card-body">
               <div>
                 <input type="button" class="btn btn-info btn-block" value="ver más"></input>
@@ -200,7 +129,7 @@
         </div>
         <div class="col-lg-3 col-sm-12 py-2" data-aos="zoom-in">
           <div class="card w-100" style="width: 18rem;">
-            <img class="card-img-top" src="/IMG/rombo-neurofocal.png" alt="Card image cap">
+            <img class="card-img-top" src="IMG/rombo-neurofocal.png" alt="Card image cap">
             <div class="card-body">
               <div>
                 <input type="button" class="btn btn-info btn-block" value="ver más"></input>
@@ -210,7 +139,7 @@
         </div>
         <div class="col-lg-3 col-sm-12 py-2" data-aos="zoom-in">
           <div class="card w-100" style="width: 18rem;">
-            <img class="card-img-top" src="/IMG/rombo-blanqueamiento.png" alt="Card image cap">
+            <img class="card-img-top" src="IMG/rombo-blanqueamiento.png" alt="Card image cap">
             <div class="card-body">
               <div>
                 <input type="button" class="btn btn-info btn-block" value="ver más"></input>
@@ -237,7 +166,7 @@
     <div class="carousel-inner" role="listbox">
       <div class="carousel-item active">
         <div class="view">
-          <img class="d-block w-100" src="/IMG/bg-callout.jpg" alt="First slide">
+          <img class="d-block w-100" src="IMG/bg-callout.jpg" alt="First slide">
           <div class="mask rgba-black-light"></div>
         </div>
         <div class="carousel-caption">
@@ -248,7 +177,7 @@
       <div class="carousel-item">
         <!--Mask color-->
         <div class="view">
-          <img class="d-block w-100" src="/IMG/portfolio-1.jpg" alt="Second slide">
+          <img class="d-block w-100" src="IMG/portfolio-1.jpg" alt="Second slide">
           <div class="mask rgba-black-light"></div>
         </div>
         <div class="carousel-caption">
@@ -259,7 +188,7 @@
       <div class="carousel-item">
         <!--Mask color-->
         <div class="view">
-          <img class="d-block w-100" src="/IMG/bg-masthead.jpg" alt="Third slide">
+          <img class="d-block w-100" src="IMG/bg-masthead.jpg" alt="Third slide">
           <div class="mask rgba-black-light"></div>
         </div>
         <div class="carousel-caption">
@@ -331,7 +260,7 @@
   <!-- Contacto -->
   <div class="container contact-form" data-aos="flip-down">
     <div class="contact-image">
-      <img src="/IMG/teeth.png" alt="rocket_contact" />
+      <img src="IMG/teeth.png" alt="rocket_contact" />
     </div>
     <form method="post">
       <h3>Envíanos un mensaje</h3>
@@ -379,7 +308,7 @@
           </div>
         </div>
         <div class="col-md-6 text-center">
-          <img src="/IMG/Logo.png" alt="" style=" width: 60%;">
+          <img src="IMG/Logo.png" alt="" style=" width: 60%;">
         </div>
       </div>
     </div>
@@ -387,36 +316,5 @@
       <p class="text-center mb-0">copyright Odontegral S.A.S</p>
     </div>
   </footer>
-
-
-
-
-  <!-- Custom Scripts -->
-  <script src="/JS/main.js"></script>
-
-  <!-- BOOSTRAP scripts -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-  </script>
-
-  <!-- Particles.js -->
-  <script src="/particles.js"></script>
-  <script src="/JS/app.js"></script>
-
-  <!-- AoS.js -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-
-  <!-- contador -->
-
-</body>
-
-</html>
+<!-- footer -->
+<?php include("INCLUDES/footer.php")?>
