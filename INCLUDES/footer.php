@@ -5,15 +5,15 @@
           <div class="text-md-left">
             <i class="fab fa-facebook-square m-2 iconos-footer" style=" vertical-align: middle;"></i>
             <!-- <p class="fuente-Lato d-md-inline d-sm-block">Facebook</p> -->
-            <a href="" class="fuente-Lato d-md-inline d-sm-block" >Facebook</a>
+            <a href="" class="fuente-Lato d-md-inline d-lg-inline d-sm-block d-xs-block" >Facebook</a>
           </div>
           <div class="text-md-left">
             <i class="fab fa-instagram-square m-2 iconos-footer" style=" vertical-align: middle;"></i>
-            <a href="" class="fuente-Lato d-md-inline d-sm-block" >Twitter</a>
+            <a href="" class="fuente-Lato d-md-inline d-lg-inline d-sm-block d-xs-block" >Twitter</a>
           </div>
           <div class="text-md-left">
             <i class="fab fa-twitter-square m-2 iconos-footer" style=" vertical-align: middle;"></i>
-            <a href="" class="fuente-Lato d-md-inline d-sm-block" >Instagram</a>
+            <a href="" class="fuente-Lato d-md-inline d-lg-inline d-sm-block d-xs-block" >Instagram</a>
           </div>
           </div>
         <div class="col-md-6 text-center">
@@ -42,7 +42,7 @@
 
 <!-- Particles.js -->
 <script src="particles.js"></script>
-<script src="JS/app.js"></script>
+<script type="module" src="JS/app.js"></script>
 
 <!-- AoS.js -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

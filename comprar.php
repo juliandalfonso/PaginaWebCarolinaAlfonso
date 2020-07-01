@@ -4,6 +4,8 @@
 <!-- NavBar -->
 <?php include("INCLUDES/NavBar.php")?>
 
+<!-- colocamos el fondo de particles.js -->
+<div class="container text-center vh-75 pb-4"><div id="particles-js"></div></div>
 
 <div class="container mt-5">
     <div class="row text-center py-5">
