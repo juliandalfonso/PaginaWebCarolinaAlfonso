@@ -12,7 +12,7 @@
   <div class="container text-center vh-75 pb-4">
     <div id="particles-js"></div>
     <div id="overlay">
-      <img src="IMG/Logo.png" alt="" class="w-75">
+      <img src="IMG/index/Logo.png" alt="" class="w-75">
     </div>
   </div>
 
@@ -21,7 +21,7 @@
     <div class="container py-4">
       <div class="row">
         <div class="col-md-6 my-auto">
-          <div data-aos="fade-right"><img src="IMG/foto-perfil.jpeg" alt=""
+          <div data-aos="fade-right"><img src="IMG/index/foto-perfil.jpeg" alt=""
               class="img-thumbnail foto-perfil img-fluid text-center"></div>
         </div>
         <div class="col-md-6 my-auto">
@@ -67,7 +67,7 @@
       <div class="row my-4">
         <div class="col-lg-3 col-sm-12 py-2" data-aos="zoom-in">
           <div class="card w-100" style="width: 18rem;">
-            <img class="card-img-top" src="IMG/rombo-diseno-de-sonrisa.png" alt="Card image cap">
+            <img class="card-img-top" src="IMG/rombos/rombo-diseno-de-sonrisa.png" alt="Card image cap">
             <div class="card-body">
               <div>
                 <a href="diseno-de-sonrisa.php" class="btn btn-info btn-block">ver más</a>
@@ -77,7 +77,7 @@
         </div>
         <div class="col-lg-3 col-sm-12 py-2" data-aos="zoom-in">
           <div class="card w-100" style="width: 18rem;">
-            <img class="card-img-top" src="IMG/rombo-implantes.png" alt="Card image cap">
+            <img class="card-img-top" src="IMG/rombos/rombo-implantes.png" alt="Card image cap">
             <div class="card-body">
               <div>
                 <a href="implantes.php" class="btn btn-info btn-block">ver más</a>
@@ -87,7 +87,7 @@
         </div>
         <div class="col-lg-3 col-sm-12 py-2" data-aos="zoom-in">
           <div class="card w-100" style="width: 18rem;">
-            <img class="card-img-top" src="IMG/rombo-carillas-lentes.png" alt="Card image cap">
+            <img class="card-img-top" src="IMG/rombos/rombo-carillas-lentes.png" alt="Card image cap">
             <div class="card-body">
               <div>
                 <a href="carillas.php" class="btn btn-info btn-block">ver más</a>
@@ -97,7 +97,7 @@
         </div>
         <div class="col-lg-3 col-sm-12 py-2" data-aos="zoom-in">
           <div class="card w-100" style="width: 18rem;">
-            <img class="card-img-top" src="IMG/rombo-resinas.png" alt="Card image cap">
+            <img class="card-img-top" src="IMG/rombos/rombo-resinas.png" alt="Card image cap">
             <div class="card-body">
               <div>
                 <a href="resinas.php" class="btn btn-info btn-block">ver más</a>
@@ -111,7 +111,7 @@
       <div class="row my-4">
         <div class="col-lg-3 col-sm-12 py-2" data-aos="zoom-in">
           <div class="card w-100" style="width: 18rem;">
-            <img class="card-img-top" src="IMG/rombo.png" alt="Card image cap">
+            <img class="card-img-top" src="IMG/rombos/rombo-rehabilitacion.png" alt="Card image cap">
             <div class="card-body">
               <p class="card-text fuente-Lato font-weight-light text-center">Rehabilitacion.</p>
               <div>
@@ -122,7 +122,7 @@
         </div>
         <div class="col-lg-3 col-sm-12 py-2" data-aos="zoom-in">
           <div class="card w-100" style="width: 18rem;">
-            <img class="card-img-top" src="IMG/rombo-coronas.png" alt="Card image cap">
+            <img class="card-img-top" src="IMG/rombos/rombo-coronas.png" alt="Card image cap">
             <div class="card-body">
               <div>
                 <a href="coronas.php" class="btn btn-info btn-block">ver más</a>
@@ -132,7 +132,7 @@
         </div>
         <div class="col-lg-3 col-sm-12 py-2" data-aos="zoom-in">
           <div class="card w-100" style="width: 18rem;">
-            <img class="card-img-top" src="IMG/rombo-neurofocal.png" alt="Card image cap">
+            <img class="card-img-top" src="IMG/rombos/rombo-neurofocal.png" alt="Card image cap">
             <div class="card-body">
               <div>
                 <a href="neurofocal.php" class="btn btn-info btn-block">ver más</a>
@@ -142,7 +142,7 @@
         </div>
         <div class="col-lg-3 col-sm-12 py-2" data-aos="zoom-in">
           <div class="card w-100" style="width: 18rem;">
-            <img class="card-img-top" src="IMG/rombo-blanqueamiento.png" alt="Card image cap">
+            <img class="card-img-top" src="IMG/rombos/rombo-blanqueamiento.png" alt="Card image cap">
             <div class="card-body">
               <div>
                 <a href="blanqueamiento.php" class="btn btn-info btn-block">ver más</a>
@@ -169,7 +169,7 @@
     <div class="carousel-inner" role="listbox">
       <div class="carousel-item active">
         <div class="view">
-          <img class="d-block w-100" src="IMG/bg-callout.jpg" alt="First slide">
+          <img class="d-block w-100" src="IMG/index/bg-callout.jpg" alt="First slide">
           <div class="mask rgba-black-light"></div>
         </div>
         <div class="carousel-caption">
@@ -180,7 +180,7 @@
       <div class="carousel-item">
         <!--Mask color-->
         <div class="view">
-          <img class="d-block w-100" src="IMG/portfolio-1.jpg" alt="Second slide">
+          <img class="d-block w-100" src="IMG/index/portfolio-1.jpg" alt="Second slide">
           <div class="mask rgba-black-light"></div>
         </div>
         <div class="carousel-caption">
@@ -191,7 +191,7 @@
       <div class="carousel-item">
         <!--Mask color-->
         <div class="view">
-          <img class="d-block w-100" src="IMG/bg-masthead.jpg" alt="Third slide">
+          <img class="d-block w-100" src="IMG/index/bg-masthead.jpg" alt="Third slide">
           <div class="mask rgba-black-light"></div>
         </div>
         <div class="carousel-caption">
@@ -259,7 +259,7 @@
   <!-- Contacto -->
   <div class="container contact-form" data-aos="flip-down">
     <div class="contact-image">
-      <img src="IMG/teeth.png" alt="rocket_contact" />
+      <img src="IMG/index/teeth.png" alt="rocket_contact" />
     </div>
     <form method="post">
       <h3>Envíanos un mensaje</h3>
