@@ -1,5 +1,5 @@
- <footer style="background-color:rgb(255,255,255,0.6);" id="footer">
-    <div class="container">
+ <footer id="footer">
+    <div class="container" >
       <div class="row p-4">
         <div class="col-md-6 my-auto text-center" id="redes-footer">
           <div class="text-md-left">
@@ -21,13 +21,13 @@
         </div>
       </div>
     </div>
-    <div style="background-color: #ffffff;">
-      <p class="text-center mb-0">copyright Odontegral S.A.S</p>
+    <div class="copyright">
+      <p class="text-center mb-0"><i class="fa fa-copyright" aria-hidden="true"></i> Odontegral S.A.S</p>
     </div>
   </footer>
  
  <!-- Custom Scripts -->
-<script src="/JS/main.js"></script>
+<script src="JS/main.js"></script>
 
 <!-- BOOSTRAP scripts -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

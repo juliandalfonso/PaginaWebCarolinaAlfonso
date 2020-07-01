@@ -1,0 +1,12 @@
+@import "redes";
+
+// seccion acerca del diseñador
+#introduccion
+{
+    background-color:$colortransparente;
+    color: $colorgris;
+    .card
+    {
+        color: $colorgris;
+    }
+}

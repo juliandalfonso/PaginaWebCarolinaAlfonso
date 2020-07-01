@@ -216,8 +216,8 @@
 
 
   <!-- REDES SOCIALES -->
-  <div id="redes" class="my-4 py-4">
-    <div class="container my-4">
+  <div id="redes">
+    <div class="container mt-4">
       <div class="row">
         <div class="col-lg-6 col-md-12 col-sm-12 my-auto" data-aos="fade-right">
           <h1 class="display-4 font-weight-bold text-center">
