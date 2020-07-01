@@ -1,11 +1,8 @@
-<!-- conexion a mysql -->
-<?php include("db.php")?>
-
 <!-- header -->
-<?php include("INCLUDES/header.php")?>
+<?php include("INCLUDES/header.php");?>
 
 <!-- NavBar -->
-<?php include("INCLUDES/NavBar.php")?>
+<?php include("INCLUDES/NavBar.php");?>
 
 
   <!-- HEADER y fondo particles.js-->
@@ -291,4 +288,4 @@
 
   
 <!-- footer -->
-<?php include("INCLUDES/footer.php")?>
+<?php include("INCLUDES/footer.php");?>

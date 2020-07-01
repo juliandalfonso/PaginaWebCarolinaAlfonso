@@ -118,4 +118,8 @@ footer {
   footer .copyright {
     background-color: #ffffff; }
 
+.fa-star, .fa-star-half {
+  color: #89D9D9;
+  padding: 3% 0%; }
+
 /*# sourceMappingURL=main.css.map */
