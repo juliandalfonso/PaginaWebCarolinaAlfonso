@@ -12,6 +12,7 @@ font-family: 'Lato', sans-serif;
     #B8D9D5
     #D9A59A
     #717074
+    #327B74
 */
 
 
@@ -150,4 +151,10 @@ font-family: 'Lato', sans-serif;
     border: 3px solid #89D9D9;
     padding: 10px;
     margin: auto;
+}
+
+.iconos-footer
+{
+    color: #327B74;
+    font-size: 2em;
 }
