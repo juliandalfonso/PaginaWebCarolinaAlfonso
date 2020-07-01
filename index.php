@@ -8,7 +8,7 @@
 <?php include("INCLUDES/NavBar.php")?>
 
 
-  <!-- HEADER -->
+  <!-- HEADER y fondo particles.js-->
   <div class="container text-center vh-75 pb-4">
     <div id="particles-js">hola</div>
     <div id="overlay">
@@ -41,6 +41,7 @@
   </div>
   <!-- fin introduccion -->
 
+   <!-- frase inspiradora -->
   <div class="container" data-aos="flip-up">
     <div class="card mt-4">
       <div class="card-header">
@@ -57,6 +58,8 @@
       </div>
     </div>
   </div>
+  <!-- fin frase inspiradora -->
+
 
   <!-- Carrousel de Servicios -->
   <div id="servicios">
@@ -67,7 +70,7 @@
             <img class="card-img-top" src="IMG/rombo-diseno-de-sonrisa.png" alt="Card image cap">
             <div class="card-body">
               <div>
-                <input type="button" class="btn btn-info btn-block" value="ver más"></input>
+                <a href="diseno-de-sonrisa.php" class="btn btn-info btn-block">ver más</a>
               </div>
             </div>
           </div>
@@ -77,7 +80,7 @@
             <img class="card-img-top" src="IMG/rombo-implantes.png" alt="Card image cap">
             <div class="card-body">
               <div>
-                <input type="button" class="btn btn-info btn-block" value="ver más"></input>
+                <a href="" class="btn btn-info btn-block">ver más</a>
               </div>
             </div>
           </div>
@@ -87,7 +90,7 @@
             <img class="card-img-top" src="IMG/rombo-carillas-lentes.png" alt="Card image cap">
             <div class="card-body">
               <div>
-                <input type="button" class="btn btn-info btn-block" value="ver más"></input>
+                <a href="" class="btn btn-info btn-block">ver más</a>
               </div>
             </div>
           </div>
@@ -97,7 +100,7 @@
             <img class="card-img-top" src="IMG/rombo-resinas.png" alt="Card image cap">
             <div class="card-body">
               <div>
-                <input type="button" class="btn btn-info btn-block" value="ver más"></input>
+                <a href="" class="btn btn-info btn-block">ver más</a>
               </div>
             </div>
           </div>
@@ -112,7 +115,7 @@
             <div class="card-body">
               <p class="card-text fuente-Lato font-weight-light text-center">Rehabilitacion.</p>
               <div>
-                <input type="button" class="btn btn-info btn-block" value="ver más"></input>
+                <a href="" class="btn btn-info btn-block">ver más</a>
               </div>
             </div>
           </div>
@@ -122,7 +125,7 @@
             <img class="card-img-top" src="IMG/rombo-coronas.png" alt="Card image cap">
             <div class="card-body">
               <div>
-                <input type="button" class="btn btn-info btn-block" value="ver más"></input>
+                <a href="" class="btn btn-info btn-block">ver más</a>
               </div>
             </div>
           </div>
@@ -132,7 +135,7 @@
             <img class="card-img-top" src="IMG/rombo-neurofocal.png" alt="Card image cap">
             <div class="card-body">
               <div>
-                <input type="button" class="btn btn-info btn-block" value="ver más"></input>
+                <a href="" class="btn btn-info btn-block">ver más</a>
               </div>
             </div>
           </div>
@@ -142,7 +145,7 @@
             <img class="card-img-top" src="IMG/rombo-blanqueamiento.png" alt="Card image cap">
             <div class="card-body">
               <div>
-                <input type="button" class="btn btn-info btn-block" value="ver más"></input>
+                <a href="" class="btn btn-info btn-block">ver más</a>
               </div>
             </div>
           </div>
@@ -251,11 +254,7 @@
   </div>
   <!-- fin redes sociales -->
 
-  <!-- contador -->
-  <div class="container-">
-    <div class="card"></div>
-  </div>
-  <!-- fin contador -->
+
 
   <!-- Contacto -->
   <div class="container contact-form" data-aos="flip-down">
@@ -290,31 +289,6 @@
   </div>
   <!-- fin Contacto -->
 
-  <footer style="background-color:rgb(255,255,255,0.6);" id="footer">
-    <div class="container">
-      <div class="row p-4">
-        <div class="col-md-6 my-auto text-center" id="redes-footer">
-          <div>
-            <i class="fab fa-facebook-square m-2 iconos-footer" style=" vertical-align: middle;"></i>
-            <p class="fuente-Lato d-inline "> Facebook</p>
-          </div>
-          <div>
-            <i class="fab fa-instagram-square m-2 iconos-footer" style=" vertical-align: middle;"></i>
-            <p class="fuente-Lato d-inline "> Facebook</p>
-          </div>
-          <div>
-            <i class="fab fa-twitter-square m-2 iconos-footer" style=" vertical-align: middle;"></i>
-            <p class="fuente-Lato d-inline "> Facebook</p>
-          </div>
-        </div>
-        <div class="col-md-6 text-center">
-          <img src="IMG/Logo.png" alt="" style=" width: 60%;">
-        </div>
-      </div>
-    </div>
-    <div style="background-color: #ffffff;">
-      <p class="text-center mb-0">copyright Odontegral S.A.S</p>
-    </div>
-  </footer>
+  
 <!-- footer -->
 <?php include("INCLUDES/footer.php")?>

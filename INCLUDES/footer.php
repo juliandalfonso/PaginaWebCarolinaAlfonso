@@ -1,3 +1,30 @@
+ <footer style="background-color:rgb(255,255,255,0.6);" id="footer">
+    <div class="container">
+      <div class="row p-4">
+        <div class="col-md-6 my-auto text-center" id="redes-footer">
+          <div>
+            <i class="fab fa-facebook-square m-2 iconos-footer" style=" vertical-align: middle;"></i>
+            <p class="fuente-Lato d-md-inline d-sm-block">Facebodasdsadsadsaok</p>
+          </div>
+          <div>
+            <i class="fab fa-instagram-square m-2 iconos-footer" style=" vertical-align: middle;"></i>
+            <p class="fuente-Lato d-md-inline d-sm-block">Twittdsadsadsadsadasdsadsaer</p>
+          </div>
+          <div>
+            <i class="fab fa-twitter-square m-2 iconos-footer" style=" vertical-align: middle;"></i>
+            <p class="fuente-Lato d-md-inline d-sm-block">Instagrdsadsadsadsadsaam</p>
+          </div>
+          </div>
+        <div class="col-md-6 text-center">
+          <img src="IMG/Logo.png" alt="" style=" width: 60%;">
+        </div>
+      </div>
+    </div>
+    <div style="background-color: #ffffff;">
+      <p class="text-center mb-0">copyright Odontegral S.A.S</p>
+    </div>
+  </footer>
+ 
  <!-- Custom Scripts -->
 <script src="/JS/main.js"></script>
 
