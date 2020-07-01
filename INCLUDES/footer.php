@@ -2,17 +2,18 @@
     <div class="container">
       <div class="row p-4">
         <div class="col-md-6 my-auto text-center" id="redes-footer">
-          <div>
+          <div class="text-md-left">
             <i class="fab fa-facebook-square m-2 iconos-footer" style=" vertical-align: middle;"></i>
-            <p class="fuente-Lato d-md-inline d-sm-block">Facebodasdsadsadsaok</p>
+            <!-- <p class="fuente-Lato d-md-inline d-sm-block">Facebook</p> -->
+            <a href="" class="fuente-Lato d-md-inline d-sm-block" >Facebook</a>
           </div>
-          <div>
+          <div class="text-md-left">
             <i class="fab fa-instagram-square m-2 iconos-footer" style=" vertical-align: middle;"></i>
-            <p class="fuente-Lato d-md-inline d-sm-block">Twittdsadsadsadsadasdsadsaer</p>
+            <a href="" class="fuente-Lato d-md-inline d-sm-block" >Twitter</a>
           </div>
-          <div>
+          <div class="text-md-left">
             <i class="fab fa-twitter-square m-2 iconos-footer" style=" vertical-align: middle;"></i>
-            <p class="fuente-Lato d-md-inline d-sm-block">Instagrdsadsadsadsadsaam</p>
+            <a href="" class="fuente-Lato d-md-inline d-sm-block" >Instagram</a>
           </div>
           </div>
         <div class="col-md-6 text-center">

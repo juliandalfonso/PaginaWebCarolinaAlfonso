@@ -20,14 +20,14 @@
               Servicios
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Diseño de Sonrisa.</a>
-              <a class="dropdown-item" href="#">Blanqueamiento.</a>
-              <a class="dropdown-item" href="#">Rehabilitación.</a>
-              <a class="dropdown-item" href="#">Implantes.</a>
-              <a class="dropdown-item" href="#">Carillas.</a>
-              <a class="dropdown-item" href="#">Coronas.</a>
-              <a class="dropdown-item" href="#">Incrustaciones.</a>
-              <a class="dropdown-item" href="#">Resinas.</a>
+              <a class="dropdown-item" href="diseno-de-sonrisa.php">Diseño de Sonrisa.</a>
+              <a class="dropdown-item" href="blanqueamiento.php">Blanqueamiento.</a>
+              <a class="dropdown-item" href="rehabilitacion.php">Rehabilitación.</a>
+              <a class="dropdown-item" href="implantes.php">Implantes.</a>
+              <a class="dropdown-item" href="carillas.php">Carillas.</a>
+              <a class="dropdown-item" href="coronas.php">Coronas.</a>
+              <a class="dropdown-item" href="neurofocal.php">Odontologia Neurofocal.</a>
+              <a class="dropdown-item" href="resinas.php">Resinas.</a>
             </div>
           </li>
           <li class="nav-item">

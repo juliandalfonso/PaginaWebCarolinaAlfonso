@@ -10,7 +10,7 @@
 
   <!-- HEADER y fondo particles.js-->
   <div class="container text-center vh-75 pb-4">
-    <div id="particles-js">hola</div>
+    <div id="particles-js"></div>
     <div id="overlay">
       <img src="IMG/Logo.png" alt="" class="w-75">
     </div>
@@ -80,7 +80,7 @@
             <img class="card-img-top" src="IMG/rombo-implantes.png" alt="Card image cap">
             <div class="card-body">
               <div>
-                <a href="" class="btn btn-info btn-block">ver más</a>
+                <a href="implantes.php" class="btn btn-info btn-block">ver más</a>
               </div>
             </div>
           </div>
@@ -90,7 +90,7 @@
             <img class="card-img-top" src="IMG/rombo-carillas-lentes.png" alt="Card image cap">
             <div class="card-body">
               <div>
-                <a href="" class="btn btn-info btn-block">ver más</a>
+                <a href="carillas.php" class="btn btn-info btn-block">ver más</a>
               </div>
             </div>
           </div>
@@ -100,7 +100,7 @@
             <img class="card-img-top" src="IMG/rombo-resinas.png" alt="Card image cap">
             <div class="card-body">
               <div>
-                <a href="" class="btn btn-info btn-block">ver más</a>
+                <a href="resinas.php" class="btn btn-info btn-block">ver más</a>
               </div>
             </div>
           </div>
@@ -115,7 +115,7 @@
             <div class="card-body">
               <p class="card-text fuente-Lato font-weight-light text-center">Rehabilitacion.</p>
               <div>
-                <a href="" class="btn btn-info btn-block">ver más</a>
+                <a href="rehabilitacion.php" class="btn btn-info btn-block">ver más</a>
               </div>
             </div>
           </div>
@@ -125,7 +125,7 @@
             <img class="card-img-top" src="IMG/rombo-coronas.png" alt="Card image cap">
             <div class="card-body">
               <div>
-                <a href="" class="btn btn-info btn-block">ver más</a>
+                <a href="coronas.php" class="btn btn-info btn-block">ver más</a>
               </div>
             </div>
           </div>
@@ -135,7 +135,7 @@
             <img class="card-img-top" src="IMG/rombo-neurofocal.png" alt="Card image cap">
             <div class="card-body">
               <div>
-                <a href="" class="btn btn-info btn-block">ver más</a>
+                <a href="neurofocal.php" class="btn btn-info btn-block">ver más</a>
               </div>
             </div>
           </div>
@@ -145,7 +145,7 @@
             <img class="card-img-top" src="IMG/rombo-blanqueamiento.png" alt="Card image cap">
             <div class="card-body">
               <div>
-                <a href="" class="btn btn-info btn-block">ver más</a>
+                <a href="blanqueamiento.php" class="btn btn-info btn-block">ver más</a>
               </div>
             </div>
           </div>
