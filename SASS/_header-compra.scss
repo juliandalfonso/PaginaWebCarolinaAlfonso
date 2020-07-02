@@ -1,0 +1,23 @@
+header
+{
+    nav{
+        margin-top: 75px;
+        background-color: $colorclaro;
+        a,button,i,h3,h5
+        {
+            color: $colorverde;
+        }
+
+        #cart_count
+        {
+            text-align: center;
+            padding: 0 0.6rem 0.1rem 0.6rem;
+            border-radius: 2rem;
+            background-color: $colorverde;
+            color: white;
+           
+        }
+    }
+
+
+}

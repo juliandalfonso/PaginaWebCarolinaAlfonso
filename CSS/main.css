@@ -118,8 +118,23 @@ footer {
   footer .copyright {
     background-color: #ffffff; }
 
+.componentes {
+  margin-top: 100px; }
+
 .fa-star, .fa-star-half {
   color: #89D9D9;
   padding: 3% 0%; }
+
+header nav {
+  margin-top: 75px;
+  background-color: #B8D9D5; }
+  header nav a, header nav button, header nav i, header nav h3, header nav h5 {
+    color: #327B74; }
+  header nav #cart_count {
+    text-align: center;
+    padding: 0 0.6rem 0.1rem 0.6rem;
+    border-radius: 2rem;
+    background-color: #327B74;
+    color: white; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,5 +1,5 @@
 <!-- NavBar -->
-<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #B8D9D5;">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top d-block" style="background-color: #B8D9D5;">
     <div class="container">
       <div class="d-inline m-0">
         <img src="IMG/index/Logo.png" alt="" style="width: 100px;">

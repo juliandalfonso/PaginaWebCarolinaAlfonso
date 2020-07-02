@@ -3,7 +3,7 @@ function component($nombreproducto,$precioproducto,$productimg,$productid)
 {
     $element ="
 
-    <div class=\"col-md-3 col-sm-6 my-3 my-md-0\">
+    <div class=\"col-lg-3 col-md-6 col-sm-12 my-3 \">
     <form action=\"comprar.php\" method=\"post\">
         <div class=\"card shadow\">
             <div>

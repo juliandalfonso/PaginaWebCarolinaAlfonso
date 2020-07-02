@@ -1,13 +1,18 @@
-
 <?php
+
+session_start();
+
 //importamos el header -->
 include("INCLUDES/header.php");
 
+require_once("INCLUDES/header-compra.php");
 //iniciamos una sesion
-session_start();
 
 // Creamos la base de datos si se requiere -->
- require_once("PHP/CreaBD.php");
+require_once("PHP/CreaBD.php");
+
+// incluimos los componentes de productos -->
+require_once("PHP/component.php");
 
     //creamos la instancia de la base de datos
     $database = new CreaBD("BDproductos","tablaproductos");
@@ -18,22 +23,20 @@ session_start();
        if(isset($_SESSION['cart']))
        {
            $item_array_id = array_column($_SESSION['cart'],"product_id");
-           print_r($_SESSION['cart']);
 
            if(in_array($_POST['product_id'], $item_array_id))
            {
                echo "<script>alert('El producto ya fue añadido al carrito')</script>";
-               echo "<script>window.location= 'comprar.php'</script>";
+               echo "<script>window.location='comprar.php'</script>";
            }
            else
            {
-               $count=count($_SESSION['cart']);
+               $count = count($_SESSION['cart']);
                $item_array = array(
                 'product_id'=>$_POST['product_id']
                );
 
                $_SESSION['cart'][$count] = $item_array;
-
            }
        }
        else{
@@ -43,17 +46,13 @@ session_start();
 
            //creamos una nueva variable de sesion
            $_SESSION['cart'][0] = $item_array;
-           print_r($_SESSION['cart']);
             
        }
     };
 
-// incluimos los componentes de productos -->
-require_once("PHP/component.php");
 
 // NavBar -->
 include("INCLUDES/NavBar.php");
-
 
 ?>
 
@@ -63,8 +62,8 @@ include("INCLUDES/NavBar.php");
 </div>
 
 <!-- componentes de compra -->
-<div class="container mt-5">
-    <div class="row text-center py-5">
+<div class="container mt-5" id="componentes">
+    <div class="row text-center py-5 componentes">
         <?php
             $result = $database->getData();
             while($row = mysqli_fetch_assoc($result))
