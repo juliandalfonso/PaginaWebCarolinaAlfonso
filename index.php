@@ -110,7 +110,6 @@
           <div class="card w-100" style="width: 18rem;">
             <img class="card-img-top" src="IMG/rombos/rombo-rehabilitacion.png" alt="Card image cap">
             <div class="card-body">
-              <p class="card-text fuente-Lato font-weight-light text-center">Rehabilitacion.</p>
               <div>
                 <a href="rehabilitacion.php" class="btn btn-info btn-block">ver más</a>
               </div>

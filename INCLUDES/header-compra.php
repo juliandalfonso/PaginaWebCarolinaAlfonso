@@ -11,7 +11,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav container">
-            <a href="INCLUDES/cart.php" class="nav-item nav-link active ml-auto">
+            <a href="cart.php" class="nav-item nav-link active ml-auto">
         <h5>
             <i class="fas fa-shopping-cart d-inline"></i>productos
             <?php 
